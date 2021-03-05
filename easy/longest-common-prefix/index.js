@@ -6,6 +6,8 @@
 
 // @lc code=start
 /**
+ * 时间复杂度 O(n)
+ * 空间复杂度 O(1)
  * @param {string[]} strs
  * @return {string}
  */
@@ -19,7 +21,7 @@ var longestCommonPrefix = function(strs) {
         if (j === 0) {
           if (strs[i].length === 0) {
             j = minLen;
-             break;
+            break;
           } else {
             minLen = minLen < strs[i].length ? minLen : strs[i].length;
           }

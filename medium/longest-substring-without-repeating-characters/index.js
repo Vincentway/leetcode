@@ -6,6 +6,9 @@
 
 // @lc code=start
 /**
+ * 滑动窗口
+ * 时间复杂度 O(n)
+ * 空间复杂度 O(∣Σ∣)，其中 Σ 表示字符集（即字符串中可以出现的字符）
  * @param {string} s
  * @return {number}
  */

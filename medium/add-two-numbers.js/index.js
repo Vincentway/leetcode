@@ -13,6 +13,8 @@
  * }
  */
 /**
+ * 时间复杂度 O(max(m, n))
+ * 空间复杂度 O(max(m, n))
  * @param {ListNode} l1
  * @param {ListNode} l2
  * @return {ListNode}
